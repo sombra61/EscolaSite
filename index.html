@@ -1,46 +1,93 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Time</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pro-HRF — Sobre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="logo.png" src="logo.png " alt="logo">
-        <h1 class="cabecalho-titulo">sobre a escola PROHERF</h1>
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item01">Nosso Objetivo</li>
-            <li class="cabecalho-lista-item02">Quem somos</li>
-        </ul>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Substitua o src pela sua logo -->
+        <img src="imagens/logo-placeholder.png" alt="Logo da escola" class="logo">
+        <h1 class="site-title">PRO-HRF</h1>
+      </div>
+    </div>
+  </header>
 
-    <section class="quem-somos">
-        <div class="quem-somos-div">
-            <h2 class="quem-somos-titulo">Quem somos</h2>
-            <p class="quem-somos-texto">
-             O Colégio Estadual Professora Helena Ronkoski Fioravante – Ensino Fundamental e Médio iniciou suas atividades em 15 de fevereiro de 1993, autorizado pela Resolução nº 4.873/92 de 17 de dezembro de 1992, publicada no Diário Oficial nº 3.921 de 31 de dezembro de 1992, com 5 turmas de 5ª série. As demais séries foram implantadas gradativamente.
-A instituição foi autorizada a funcionar pela mesma resolução e, inicialmente, instalou-se nas dependências da Escola Municipal Coronel Rogério Borba, situada na Rua Ari Borba Carneiro, nº 927.
-A criação do estabelecimento ocorreu pela necessidade de atender alunos de 1ª a 4ª séries do município, vindos tanto da sede quanto da zona rural. O projeto foi elaborado e coordenado pela professora Inah Luiza Vargas Batista Santos, também a 1ª diretora do colégio, a partir de junho de 1993.
-A escolha do nome se deu em reunião presidida pela mesma diretora, destacando a importância de homenagear educadores. Os nomes sugeridos foram das professoras Luiza de Almeida Ferreira e Helena Ronkoski Fioravante. Em votação realizada em 20 de março de 1992, venceu Helena Ronkoski Fioravante.    
-
-            </p>
-        </div>
-    </section>
-
-    <section class="nosso-objetivo">
-        <h2 class="nosso-objetivo-titulo">sobre a escola</h2>
-        <p class="nosso-objetivo-texto">
-            Temos a missão de indicar os melhores livros e a forma adequada para criar uma rotina diária de leitura. Estamos desde 2024 incentivando a leitura.
+  <main>
+    <!-- Seção Sobre / Hero -->
+    <section class="sobre container">
+      <div class="sobre-texto">
+        <h2>Sobre Escola</h2>
+        <p class="lead">
+          O Colégio Estadual Profª Helena Rodrigues Fioravante — (texto de exemplo) —
+          aqui vai uma descrição resumida sobre a escola. Substitua este parágrafo pelo seu conteúdo real.
         </p>
-        <img class="nosso-objetivo-imagem" src="Reading glasses-cuate 1.png" alt="Nosso objetivo imagem">
+        <p>
+          A instituição funciona desde 1993 com objetivo de atender a comunidade local. Acrescente datas, nomes e informações relevantes.
+        </p>
+      </div>
+
+      <div class="sobre-imagem">
+        <!-- Espaço reservado para imagem/ilustração -->
+        <div class="img-placeholder" role="img" aria-label="Imagem ilustrativa — troque pelo arquivo real">
+          <span>Imagem aqui</span>
+        </div>
+      </div>
     </section>
 
-    <footer class="rodape">
-        <img class="rodape-imagem" src="de-cima-livros-abertos.jpg" alt="Imagem do rodapé">
-        <h3 class="rodape-titulo">vitor jose</h3>
-        <a href="#"></a>
-    </footer>
+    <!-- Seção Estudantes -->
+    <section class="estudantes container">
+      <h3 class="section-title">Quem são nossos Estudantes?</h3>
+
+      <div class="cards">
+        <!-- Card de estudante (repita/clone conforme necessário) -->
+        <article class="card">
+          <div class="avatar-placeholder" aria-hidden="true">avatar</div>
+          <h4 class="nome">Vitor</h4>
+          <div class="socials">
+            <button class="ico">🔗</button>
+            <button class="ico">✉️</button>
+            <button class="ico">📷</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="avatar-placeholder">avatar</div>
+          <h4 class="nome">Anônimo</h4>
+          <div class="socials">
+            <button class="ico">🔗</button>
+            <button class="ico">✉️</button>
+            <button class="ico">📷</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="avatar-placeholder">avatar</div>
+          <h4 class="nome">Anônimo</h4>
+          <div class="socials">
+            <button class="ico">🔗</button>
+            <button class="ico">✉️</button>
+            <button class="ico">📷</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano"></span> PRO-HRF — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    // só para atualizar o ano no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
