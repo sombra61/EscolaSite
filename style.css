@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* Container padrão */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: #004080;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 55px;
+  height: auto;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Sobre */
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.sobre-texto {
+  flex: 1;
+}
+
+.sobre-texto h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: #003366;
+}
+
+.lead {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.sobre-imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.img-placeholder {
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+  background: #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estudantes */
+.estudantes {
+  margin: 50px 0;
+}
+
+.section-title {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #003366;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.card img.avatar,
+.card img.vitor {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Nome */
+.nome {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Ícones sociais */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Rodapé */
+.site-footer {
+  background: #004080;
+  padding: 18px 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.site-footer p {
+  font-size: 0.95rem;
+}
