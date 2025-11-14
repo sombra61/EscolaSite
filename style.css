@@ -11,14 +11,14 @@ body {
   color: #222;
 }
 
-/* Container padrão */
+//continer padrao
 .container {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
 }
 
-/* Header */
+//header
 .site-header {
   background: #004080;
   padding: 15px 0;
@@ -47,7 +47,7 @@ body {
   font-weight: 700;
 }
 
-/* Sobre */
+//sobre
 .sobre {
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   justify-content: center;
 }
 
-/* Estudantes */
+//estudantes
 .estudantes {
   margin: 50px 0;
 }
@@ -125,14 +125,14 @@ body {
   margin-bottom: 15px;
 }
 
-/* Nome */
+//nome
 .nome {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-/* Ícones sociais */
+//icone
 .socials {
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Rodapé */
+//rodape
 .site-footer {
   background: #004080;
   padding: 18px 0;
