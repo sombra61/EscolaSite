@@ -1,6 +1,4 @@
-/* ---------------------------- */
-/*    CONFIGURAÇÕES GERAIS      */
-/* ---------------------------- */
+// grral 
 
 * {
   margin: 0;
@@ -21,9 +19,7 @@ body {
   margin: auto;
 }
 
-/* ---------------------------- */
-/*          CABEÇALHO           */
-/* ---------------------------- */
+// cabeçalho
 
 .site-header {
   background: #004aad;
@@ -55,9 +51,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* ---------------------------- */
-/*            SOBRE             */
-/* ---------------------------- */
+//sobre]
 
 .sobre {
   display: flex;
@@ -99,9 +93,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* ---------------------------- */
-/*         ESTUDANTES           */
-/* ---------------------------- */
+// estudantes
 
 .estudantes {
   padding: 60px 0;
@@ -166,9 +158,7 @@ body {
   transform: scale(1.1);
 }
 
-/* ---------------------------- */
-/*            FOOTER            */
-/* ---------------------------- */
+// footer
 
 .site-footer {
   background: #004aad;
@@ -182,9 +172,7 @@ body {
   font-size: 0.95rem;
 }
 
-/* ---------------------------- */
-/*          RESPONSIVO          */
-/* ---------------------------- */
+ // animação
 
 @media (max-width: 768px) {
   .site-title {
