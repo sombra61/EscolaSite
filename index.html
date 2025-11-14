@@ -7,11 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <img src="logo.png" alt="Logo do Colégio Estadual Professora Helena Ronkoski Fioravante" class="logo">
+        <img src="img/logo.png" alt="Logo do Colégio" class="logo">
         <h1 class="site-title">PRO-HRF</h1>
       </div>
     </div>
@@ -22,18 +23,18 @@
       <div class="sobre-texto">
         <h2>Sobre a Escola</h2>
         <p class="lead">
-          O Colégio Estadual Professora Helena Ronkoski Fioravante – Ensino Fundamental e Médio iniciou suas atividades em 15 de fevereiro de 1993, autorizado pela Resolução nº 4.873/92 de 17 de dezembro de 1992, publicada no Diário Oficial nº 3.921 de 31 de dezembro de 1992, com 5 turmas de 5ª série. As demais séries foram implantadas gradativamente.
-          A instituição foi autorizada a funcionar pela mesma resolução e, inicialmente, instalou-se nas dependências da Escola Municipal Coronel Rogério Borba, situada na Rua Ari Borba Carneiro, nº 927.
-          A criação do estabelecimento ocorreu pela necessidade de atender alunos de 1ª a 4ª séries do município, vindos tanto da sede quanto da zona rural. O projeto foi elaborado e coordenado pela professora Inah Luiza Vargas Batista Santos, também a 1ª diretora do colégio, a partir de junho de 1993.
-          A escolha do nome se deu em reunião presidida pela mesma diretora, destacando a importância de homenagear educadores. Os nomes sugeridos foram das professoras Luiza de Almeida Ferreira e Helena Ronkoski Fioravante. Em votação realizada em 20 de março de 1992, venceu Helena Ronkoski Fioravante.
+          O Colégio Estadual Professora Helena Ronkoski Fioravante – Ensino Fundamental e Médio iniciou suas atividades 
+          em 15 de fevereiro de 1993, autorizado pela Resolução nº 4.873/92 de 17 de dezembro de 1992, publicada no Diário Oficial nº 3.921 
+          de 31 de dezembro de 1992.
         </p>
+
         <p>
-          A instituição funciona desde 1993 com o objetivo de atender à comunidade local. Acrescente datas, nomes e informações relevantes conforme necessário.
+          A instituição funciona desde 1993 com o objetivo de atender à comunidade local.
         </p>
       </div>
 
       <div class="sobre-imagem">
-        <div class="img-placeholder" role="img" aria-label="Imagem ilustrativa — troque pelo arquivo real">
+        <div class="img-placeholder">
           <span>Imagem aqui</span>
         </div>
       </div>
@@ -44,45 +45,53 @@
       <h3 class="section-title">Quem são nossos Estudantes?</h3>
 
       <div class="cards">
-        
+
+        <!-- Card 1 -->
         <article class="card">
-          <img src="vitor.png" alt="Foto de Vitor, estudante do colégio" class="vitor">
+          <img src="img/vitor.png" alt="Foto de Vitor" class="vitor">
           <h4 class="nome">Vitor</h4>
+
           <div class="socials">
             <a href="link do insta" target="_blank" aria-label="Instagram de Vitor">
-              <img src="imagem do insta" alt="Instagram" class="social-icon">
+              <img src="img/instagram_1.png" alt="Instagram" class="social-icon">
             </a>
+
             <a href="link do github" target="_blank" aria-label="GitHub de Vitor">
-              <img src="imagem do git" alt="GitHub" class="social-icon">
+              <img src="img/github_1.png" alt="GitHub" class="social-icon">
             </a>
           </div>
         </article>
 
+        <!-- Card 2 -->
         <article class="card">
-          <img src="foto.png" alt="Foto de vitor" class="vitor">
-          <h4 class="nome">vitor</h4>
+          <img src="img/vitor.png" alt="Foto do estudante" class="avatar">
+          <h4 class="nome">Outro Estudante</h4>
+
           <div class="socials">
-            <a href="#" aria-label="Instagram do estudante anônimo">
-              <img src="instagram.png" alt="Instagram" class="social-icon">
+            <a href="#">
+              <img src="img/instagram_1.png" alt="Instagram" class="social-icon">
             </a>
-            <a href="#" aria-label="GitHub do estudante anônimo">
-              <img src="github.png" alt="GitHub" class="social-icon">
+            <a href="#">
+              <img src="img/github_1.png" alt="GitHub" class="social-icon">
             </a>
           </div>
         </article>
 
+        <!-- Card 3 -->
         <article class="card">
-          <img src="foto.png" alt="Foto de estudante anônimo" class="avatar">
+          <img src="img/vitor.png" alt="Foto de estudante anônimo" class="avatar">
           <h4 class="nome">Anônimo</h4>
+
           <div class="socials">
-            <a href="#" aria-label="Instagram do estudante anônimo">
-              <img src="instagram.png" alt="Instagram" class="social-icon">
+            <a href="#">
+              <img src="img/instagram_1.png" alt="Instagram" class="social-icon">
             </a>
-            <a href="#" aria-label="GitHub do estudante anônimo">
-              <img src="github.png" alt="GitHub" class="social-icon">
+            <a href="#">
+              <img src="img/github_1.png" alt="GitHub" class="social-icon">
             </a>
           </div>
         </article>
+
       </div>
     </section>
   </main>
@@ -96,5 +105,6 @@
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
